@@ -1,28 +1,5 @@
 $(document).ready(function() {
 
-    $(function() {
-        $('.my-drawings .owl-carousel').owlCarousel({
-            margin: 3,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                680: {
-                    items: 3
-                },
-                960: {
-                    items: 5
-                }
-            },
-            nav: false,
-            dots: true,
-            loop: true
-            
-        })
-        
-    })
-
     $(window).resize(function() {
         if($(window).width() < 990) {
             $('.navbar-collapse').addClass('skew');

@@ -1,0 +1,69 @@
+
+* {
+    font-family: "Open Sans";
+}
+
+$mainColor: rgb(23, 106, 184);
+
+.color-fff {
+    color: #fff !important;
+}
+.special-heading {
+    font-size: 35px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+    span {
+        color: $mainColor;
+    }
+}
+
+%main-button {
+    display: inline-block;
+    padding: 17px 35px;
+    border: 2px solid $mainColor;
+    border-radius: 30px;
+    text-decoration: none !important;
+    
+    font-weight: bold;
+}
+.main-btn {
+    @extend %main-button;
+    color: #fff;
+    background-color: $mainColor;
+    &:hover {
+        color: #fff !important;
+    }
+}
+.main-btn-transparent {
+    @extend %main-button;
+    color: $mainColor;
+    background-color: transparent;
+}
+
+
+p.p-content {
+    line-height: 1.9;
+    // text-align: center;
+    font-size: 16px;
+    color: rgb(131, 130, 130);
+}
+
+.img-radius {
+    border-radius: 30px;
+}
+
+
+.fixed-navbar {
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0 !important;
+    box-shadow: -2px -3px 20px rgb(131, 131, 131);
+}
+
+
+
+
+
+

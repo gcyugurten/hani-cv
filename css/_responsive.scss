@@ -1,0 +1,26 @@
+@media(min-width: 770px) {
+    .main-header .navbar {
+        padding: 0 !important;
+    }
+    
+}
+
+@media(max-width: 770px) {
+    footer {
+        .brand {
+            float: none !important;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .rights {
+            text-align: center;
+            float: none !important;
+        }
+    }
+}
+
+@media(max-width: 370px) {
+    .main-header .header-quot {
+        font-size: 30px !important;
+    }
+}
